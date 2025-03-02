@@ -214,11 +214,11 @@ We referred to a <a href="https://www.youtube.com/playlist?list=PL2zRqk16wsdp8Kb
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
     <div style="text-align: center;">
         <img src="output/stitching/stitched_output_clicked.jpg" alt="Stitched Image 1" width="400">
-        <p>Stitched Image 1 (contains horizontal & vertical images)</p>
+        <p>Stitched Image 1 (clicked1) (contains horizontal & vertical images)</p>
     </div>
     <div style="text-align: center;">
         <img src="output/stitching/stitched_output_clicked2.jpg" alt="Stitched Image 2" width="400">
-        <p>Stitched Image 2 (clicked2)(contains horizontal images)</p>
+        <p>Stitched Image 2 (clicked2) (contains horizontal images)</p>
     </div>
 </div>
 
