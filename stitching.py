@@ -93,6 +93,7 @@ stitched_result = stitch_images(image_files)
 stitched_result2 = stitch_images(image_files2)
 stitched_result3 = stitch_images(image_files3)
 
+
 # Display images
 
 plt.figure(figsize=(8, 4))
@@ -115,6 +116,7 @@ plt.show()
 
 
 # Save images
-plt.imsave("output/2/stitched_output_clicked.jpg", stitched_result) 
-plt.imsave("output/2/stitched_output_clicked2.jpg", stitched_result2) 
-plt.imsave("output/2/stitched_output_online.jpg", stitched_result3) 
+plt.imsave("output/stitching/stitched_output_clicked.jpg", cv2.cvtColor(stitched_result, cv2.COLOR_BGR2RGB)) 
+plt.imsave("output/stitching/stitched_output_clicked2.jpg", cv2.cvtColor(stitched_result2, cv2.COLOR_BGR2RGB)) 
+plt.imsave("output/stitching/stitched_output_online.jpg", cv2.cvtColor(stitched_result3, cv2.COLOR_BGR2RGB))  
+
